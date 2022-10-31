@@ -20,6 +20,7 @@ class ListViewController: UITableViewController {
         self.title = "SnapKit iOS Demos"
         
         self.tableView?.register(UITableViewCell.self, forCellReuseIdentifier: kCellIdentifier)
+        debugPrint("Hello world")
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
